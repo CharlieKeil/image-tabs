@@ -21,18 +21,17 @@ text-size-adjust: 100%;
 }
 
 .tabs a {
-  display: inline-block;
-  background-color: none;
-  border-width: 3px;
-  border-color: grey;
-  border-radius: 10px;
   padding: .5em .75em;
 }
 
-.tabs a:hover
+.tabs a:hover {
+
+}
 
 .panel {
   display: none;
+  position: relative;
+  top: 0;
 }
 
 .panel:target {
@@ -43,7 +42,12 @@ text-size-adjust: 100%;
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: grey;
+  border-radius: 10px;
+  border: 3px grey solid;
+  background-color: white;
+  top: 365px;
+}
 
-  left:
+.badge:hover {
+
 }
