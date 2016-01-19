@@ -1,0 +1,49 @@
+@-moz-viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+@viewport {width: device-width; scale: 1;}
+
+html {
+box-sizing: border-box;
+text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+.tabs {
+  list-style-type: none;
+}
+
+.tabs > li {
+  display: inline-block;
+}
+
+.tabs a {
+  display: inline-block;
+  background-color: none;
+  border-width: 3px;
+  border-color: grey;
+  border-radius: 10px;
+  padding: .5em .75em;
+}
+
+.tabs a:hover
+
+.panel {
+  display: none;
+}
+
+.panel:target {
+  display: block;
+}
+
+.badge {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+
+  left:
+}
