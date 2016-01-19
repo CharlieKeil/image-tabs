@@ -1,15 +1,15 @@
-@-moz-viewport {width: device-width; scale: 1;}
-@-ms-viewport {width: device-width; scale: 1;}
-@-o-viewport {width: device-width; scale: 1;}
-@-webkit-viewport {width: device-width; scale: 1;}
-@viewport {width: device-width; scale: 1;}
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
 html {
-box-sizing: border-box;
-text-size-adjust: 100%;
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -18,9 +18,9 @@ body {
 }
 
 .tabs {
-    top: 365px;
-    position: relative;
-    left: 150px
+  top: 365px;
+  position: relative;
+  left: 150px;
 }
 
 .tabs > li {
