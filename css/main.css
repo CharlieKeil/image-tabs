@@ -12,8 +12,15 @@ text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .tabs {
-  list-style-type: none;
+    top: 365px;
+    position: relative;
+    left: 150px
 }
 
 .tabs > li {
@@ -22,9 +29,6 @@ text-size-adjust: 100%;
 
 .tabs a {
   padding: .5em .75em;
-}
-
-.tabs a:hover {
 
 }
 
@@ -45,9 +49,12 @@ text-size-adjust: 100%;
   border-radius: 10px;
   border: 3px grey solid;
   background-color: white;
-  top: 365px;
 }
 
 .badge:hover {
-
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border: 3px grey solid;
+  background-color: grey;
 }
